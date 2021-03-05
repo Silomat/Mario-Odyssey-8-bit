@@ -21,6 +21,11 @@ public class Dying : MonoBehaviour
         if(other.gameObject.CompareTag("enemy"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        } else if(other.gameObject.CompareTag("enemyTop"))
+        {
+
+            other.transform.parent.gameObject.transform.localScale = new Vector3();
+            
         }
     }
 }
