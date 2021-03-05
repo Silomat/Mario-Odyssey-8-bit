@@ -17,11 +17,14 @@ public class PlayerMovement : MonoBehaviour
     public float checkRadius;
     public LayerMask groundMask;
 
+    private FMOD.Studio.EventInstance playSteps;
+    private bool stepLoopIsPlaying = false;
+
 
     void Start()
     {
         rb = this.gameObject.GetComponent<Rigidbody2D>();
-        anim = this.gameObject.GetComponent<Animator>();
+        anim = this.gameObject.GetComponent<Animator>();       
     }
 
     void FixedUpdate()
@@ -48,21 +51,35 @@ public class PlayerMovement : MonoBehaviour
         
         if(moveInput != 0)
         {
-            
             anim.SetBool(("IsRunning"), true);
-            //replace this comment with the code to PLAY the running sound
+
+            if (!stepLoopIsPlaying && isGrounded) //play step sound if player is grounded 
+            {
+                playSteps = FMODUnity.RuntimeManager.CreateInstance("event:/steps");
+                playSteps.start();
+                stepLoopIsPlaying = true; //prevents from playing multiple sound instances
+            }
 
         } else if(moveInput == 0)
         {
             
             anim.SetBool(("IsRunning"), false);
-            //replace this comment with the code to STOP the running sound
+            playSteps.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+            playSteps.release();
+            stepLoopIsPlaying = false;
         }
         if(Input.GetKeyDown(KeyCode.Space) && isGrounded == true)
         {
             rb.velocity = Vector2.up * JumpForce;
-            //replace this comment with the code to PLAY the jumping sound
+            FMODUnity.RuntimeManager.PlayOneShot("event:/jump");
         }
+        if (!isGrounded) //stop steps sound if player is not touching the ground
+        {
+            playSteps.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+            playSteps.release();
+            stepLoopIsPlaying = false;
+        }
+
     }
     //Flipping the Player
     void Flip()
