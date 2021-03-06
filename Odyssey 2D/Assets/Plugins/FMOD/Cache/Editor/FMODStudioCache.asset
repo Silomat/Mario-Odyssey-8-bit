@@ -15,7 +15,11 @@ MonoBehaviour:
   Path: Assets/FMOD Project/mario_odyssey_8bit/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
+<<<<<<< Updated upstream
   lastModified: 637506274829283303
+=======
+  lastModified: 637506506200000000
+>>>>>>> Stashed changes
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -45,7 +49,11 @@ MonoBehaviour:
   - {fileID: -5425612786556981556}
   StringsBanks:
   - {fileID: 7568307349870507973}
+<<<<<<< Updated upstream
   stringsBankWriteTime: 637506274829283303
+=======
+  stringsBankWriteTime: 637506506200000000
+>>>>>>> Stashed changes
   cacheVersion: 6
 --- !u!114 &370828749583162067
 MonoBehaviour:
@@ -200,7 +208,11 @@ MonoBehaviour:
   Path: Assets/FMOD Project/mario_odyssey_8bit/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
+<<<<<<< Updated upstream
   lastModified: 637506274829283303
+=======
+  lastModified: 637506506200000000
+>>>>>>> Stashed changes
   LoadResult: 0
   FileSizes:
   - Name: Desktop
