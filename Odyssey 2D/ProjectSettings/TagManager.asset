@@ -9,6 +9,7 @@ TagManager:
   - Coin
   - PlayerHead
   - DeadZone
+  - Water
   layers:
   - Default
   - TransparentFX
