@@ -1,5 +1,28 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8683324610431224767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/background music
+  m_EditorClassIdentifier: 
+  Path: event:/background music
+  guid: 3932e2513d404c4083067f0c8f8609e4
+  Banks:
+  - {fileID: -5425612786556981556}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 107027
 --- !u!114 &-5425612786556981556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15,7 +38,7 @@ MonoBehaviour:
   Path: Assets/FMOD Project/mario_odyssey_8bit/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637506274829283303
+  lastModified: 637506577200000000
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -40,12 +63,13 @@ MonoBehaviour:
   - {fileID: 5757605767935786917}
   - {fileID: 632962390744914573}
   - {fileID: 837270732078885203}
+  - {fileID: -8683324610431224767}
   EditorParameters: []
   MasterBanks:
   - {fileID: -5425612786556981556}
   StringsBanks:
   - {fileID: 7568307349870507973}
-  stringsBankWriteTime: 637506274829283303
+  stringsBankWriteTime: 637506577200000000
   cacheVersion: 6
 --- !u!114 &370828749583162067
 MonoBehaviour:
@@ -200,9 +224,9 @@ MonoBehaviour:
   Path: Assets/FMOD Project/mario_odyssey_8bit/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637506274829283303
+  lastModified: 637506577200000000
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 924
+    Value: 970
   Exists: 1

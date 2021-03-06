@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{1aa9d6a1-7164-4129-bf72-6e3771d09013}">
+		<property name="assetPath">
+			<value>Fossil Falls.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>107.02702947845805</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ee625e51-c150-46ca-ba6a-ec93901cfb4f}</destination>
+		</relationship>
+	</object>
+</objects>
