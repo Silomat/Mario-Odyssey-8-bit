@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1366
     height: 685
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 5}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -77,9 +77,13 @@ MonoBehaviour:
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   controlID: 80
 =======
   controlID: 59
+>>>>>>> Stashed changes
+=======
+  controlID: 69
 >>>>>>> Stashed changes
 --- !u!114 &4
 MonoBehaviour:
@@ -207,9 +211,13 @@ MonoBehaviour:
   m_MaxSize: {x: 18003, y: 14042}
   vertical: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   controlID: 79
 =======
   controlID: 58
+>>>>>>> Stashed changes
+=======
+  controlID: 22
 >>>>>>> Stashed changes
 --- !u!114 &9
 MonoBehaviour:
@@ -259,8 +267,13 @@ MonoBehaviour:
     y: 0
     width: 276
     height: 635
+<<<<<<< Updated upstream
   m_MinSize: {x: 241, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
+=======
+  m_MinSize: {x: 240, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> Stashed changes
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 20}
@@ -477,6 +490,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_Target: {x: 73.7138, y: 2.0029738, z: -6.1631613}
     speed: 2
     m_Value: {x: 73.74538, y: 1.8661202, z: -6.0789437}
@@ -484,6 +498,11 @@ MonoBehaviour:
     m_Target: {x: 79.77257, y: 2.6267295, z: -109.04383}
     speed: 2
     m_Value: {x: 79.77257, y: 2.6267295, z: -109.04383}
+>>>>>>> Stashed changes
+=======
+    m_Target: {x: 227.75482, y: 11.019692, z: -118.95695}
+    speed: 2
+    m_Value: {x: 227.75482, y: 11.019692, z: -118.95695}
 >>>>>>> Stashed changes
   m_RenderMode: 0
   m_CameraMode:
@@ -536,6 +555,7 @@ MonoBehaviour:
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_Target: 19.557198
     speed: 2
     m_Value: 18.715021
@@ -543,6 +563,11 @@ MonoBehaviour:
     m_Target: 11.840786
     speed: 2
     m_Value: 11.840786
+>>>>>>> Stashed changes
+=======
+    m_Target: 7.4810376
+    speed: 2
+    m_Value: 7.4810376
 >>>>>>> Stashed changes
   m_Ortho:
     m_Target: 1
@@ -665,6 +690,9 @@ MonoBehaviour:
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: e4faffff
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -727,13 +755,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 92
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: 92
   m_LastProjectPath: C:\Users\Silas\Documents\GitHub\Mario-Odyssey-8-bit\Odyssey
     2D
@@ -742,12 +770,18 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 26}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_SelectedIDs: 16450000
     m_LastClickedID: 17686
     m_ExpandedIDs: 00000000f644000000ca9a3b
 =======
     m_SelectedIDs: 1e450000
     m_LastClickedID: 17694
+    m_ExpandedIDs: 000000000445000000ca9a3b
+>>>>>>> Stashed changes
+=======
+    m_SelectedIDs: 04450000
+    m_LastClickedID: 17668
     m_ExpandedIDs: 000000000445000000ca9a3b
 >>>>>>> Stashed changes
     m_RenameOverlay:
@@ -778,7 +812,11 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     m_ExpandedIDs: 00000000f6440000
+=======
+    m_ExpandedIDs: 0000000004450000
+>>>>>>> Stashed changes
 =======
     m_ExpandedIDs: 0000000004450000
 >>>>>>> Stashed changes
@@ -833,7 +871,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 60}
     m_GridSize: 92
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 110
