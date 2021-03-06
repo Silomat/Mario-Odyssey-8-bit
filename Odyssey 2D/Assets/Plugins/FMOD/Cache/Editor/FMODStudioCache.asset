@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Assets/FMOD Project/mario_odyssey_8bit/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637506322820000000
+  lastModified: 637506274829283303
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -37,15 +37,15 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: 5009109957244218466}
   - {fileID: 3104984041635980130}
-  - {fileID: 370828749583162067}
   - {fileID: 5757605767935786917}
   - {fileID: 632962390744914573}
+  - {fileID: 837270732078885203}
   EditorParameters: []
   MasterBanks:
   - {fileID: -5425612786556981556}
   StringsBanks:
   - {fileID: 7568307349870507973}
-  stringsBankWriteTime: 637506322820000000
+  stringsBankWriteTime: 637506274829283303
   cacheVersion: 6
 --- !u!114 &370828749583162067
 MonoBehaviour:
@@ -84,6 +84,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/grandmoon_collect
   guid: 6d9216b4694f7b4aa09b5b95d9f44a14
+  Banks:
+  - {fileID: -5425612786556981556}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &837270732078885203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/coin_collect
+  m_EditorClassIdentifier: 
+  Path: event:/coin_collect
+  guid: d7232e3aadc0884cbce070e7aa4df882
   Banks:
   - {fileID: -5425612786556981556}
   IsStream: 0
@@ -177,9 +200,9 @@ MonoBehaviour:
   Path: Assets/FMOD Project/mario_odyssey_8bit/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637506322820000000
+  lastModified: 637506274829283303
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 934
+    Value: 924
   Exists: 1
