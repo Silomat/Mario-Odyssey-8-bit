@@ -29,7 +29,7 @@ public class Moons : MonoBehaviour
 
             moonCount.text = moons.ToString() + "/20";
 
-            //replace this comment with the code to PLAY the "Collect a moon" Sound
+            FMODUnity.RuntimeManager.PlayOneShot("event:/moon_collect");
 
         } else if(collision.gameObject.CompareTag("grandMoon"))
         {
@@ -39,7 +39,7 @@ public class Moons : MonoBehaviour
 
             moonCount.text = moons.ToString() + "/20";
 
-            //replace this comment with the code to PLAY the "Collect a Grand moon" Sound
+            FMODUnity.RuntimeManager.PlayOneShot("event:/grandmoon_collect"); 
 
         }
         if(collision.gameObject.CompareTag("Coin"))
@@ -49,7 +49,7 @@ public class Moons : MonoBehaviour
 
             coinCount.text = "x" + coins.ToString();
 
-            //replace this comment with the code to PLAY the "Collect a coin" sound
+            FMODUnity.RuntimeManager.PlayOneShot("event:/coin_collect"); 
 
         }
 
