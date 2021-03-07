@@ -1,0 +1,157 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/mikekonoval/Documents/GitHub/Mario-Odyssey-8-bit/Odyssey 2D
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55420
+Successfully changed project path to: /Users/mikekonoval/Documents/GitHub/Mario-Odyssey-8-bit/Odyssey 2D
+/Users/mikekonoval/Documents/GitHub/Mario-Odyssey-8-bit/Odyssey 2D
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 59.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.6f1 (8a2143876886)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/mikekonoval/Documents/GitHub/Mario-Odyssey-8-bit/Odyssey 2D/Assets
+GfxDevice: creating device client; threaded=0
+2021-03-07 13:30:41.765 Unity[4166:488790] iMac preferred device: AMD Radeon Pro 570 (high power)
+2021-03-07 13:30:41.765 Unity[4166:488790] Metal devices available: 1
+2021-03-07 13:30:41.765 Unity[4166:488790] 0: AMD Radeon Pro 570 (high power)
+2021-03-07 13:30:41.766 Unity[4166:488790] Using device AMD Radeon Pro 570 (high power)
+Initializing Metal device caps: AMD Radeon Pro 570
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56166
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000374 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 52.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.499 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001401 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fa1089c1800 doesn't match image /Users/mikekonoval/Documents/GitHub/Mario-Odyssey-8-bit/Odyssey 2D/Library/ScriptAssemblies/Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa1304e0000 doesn't match image /Users/mikekonoval/Documents/GitHub/Mario-Odyssey-8-bit/Odyssey 2D/Library/ScriptAssemblies/Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa130538000 doesn't match image /Users/mikekonoval/Documents/GitHub/Mario-Odyssey-8-bit/Odyssey 2D/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 52.37 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  1.461 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.0 MB.
+System memory in use after: 117.0 MB.
+
+Unloading 82 unused Assets to reduce memory usage. Loaded Objects now: 2463.
+Total: 2.795475 ms (FindLiveObjects: 0.286707 ms CreateObjectMapping: 0.088379 ms MarkObjects: 2.076681 ms  DeleteObjects: 0.342704 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3784f3691a03a44311e6dd3e695eb5de') in 0.012488 seconds
+  Import took 0.016150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.364455 seconds.
+  path: Assets/Scripts/DeadZone.cs
+  artifactKey: Guid(2a72ec0dc14c6064cbc172b3d6578d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DeadZone.cs using Guid(2a72ec0dc14c6064cbc172b3d6578d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9a1aec268277ee069aef91a5b3b205') in 0.352670 seconds
+  Import took 0.356532 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001374 seconds.
+Begin MonoManager ReloadAssembly
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Plugins/FMOD/lib/mac/fmodstudioL.bundle/Contents/MacOS/fmodstudioL
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Plugins/FMOD/lib/mac/fmodstudioL.bundle/Contents/MacOS/fmodstudioL.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Plugins/FMOD/lib/mac/fmodstudioL.bundle/Contents/MacOS/fmodstudioL.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/Plugins/FMOD/lib/mac/fmodstudioL.bundle/Contents/MacOS/fmodstudioL.bundle
+Symbol file data-0x7fa1301d8000 doesn't match image /Users/mikekonoval/Documents/GitHub/Mario-Odyssey-8-bit/Odyssey 2D/Library/ScriptAssemblies/Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa130230000 doesn't match image /Users/mikekonoval/Documents/GitHub/Mario-Odyssey-8-bit/Odyssey 2D/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  1.338 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 747 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 136.1 MB.
+
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 2466.
+Total: 2.092337 ms (FindLiveObjects: 0.231493 ms CreateObjectMapping: 0.062051 ms MarkObjects: 1.660192 ms  DeleteObjects: 0.137655 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001738 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7fa110330000 doesn't match image /Users/mikekonoval/Documents/GitHub/Mario-Odyssey-8-bit/Odyssey 2D/Library/ScriptAssemblies/Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7fa110388000 doesn't match image /Users/mikekonoval/Documents/GitHub/Mario-Odyssey-8-bit/Odyssey 2D/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Mono: successfully reloaded assembly
+- Completed reload, in  1.307 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 747 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.3 MB.
+System memory in use after: 136.3 MB.
+
+Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 2469.
+Total: 2.333890 ms (FindLiveObjects: 0.315416 ms CreateObjectMapping: 0.061317 ms MarkObjects: 1.851076 ms  DeleteObjects: 0.105302 ms)
+

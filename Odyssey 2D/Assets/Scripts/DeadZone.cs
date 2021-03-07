@@ -16,10 +16,10 @@ public class DeadZone : MonoBehaviour
   public  void DyingSound()
     {
 
-        //replace this comment with the code to PLAY the Dying Sound
+        FMODUnity.RuntimeManager.PlayOneShot("event:/death");
 
 
-        
+
         Time.timeScale = 0f;
         Restart();
     }
